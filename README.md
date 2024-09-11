@@ -8,9 +8,9 @@ A: Download [```cloak.js```](cloak.js), then put it into the same folder as your
 Q: How would I activate the cloaker to use in my HTML?  
 A: Put ```<script src="cloak.js"></script>``` above ```</body>``` It should look like:
 ```
-...
-	<script src="cloak.js"></script>  
-	</body>
+    ...
+    <script src="cloak.js"></script>  
+  </body>
 </html>
 ```
 
