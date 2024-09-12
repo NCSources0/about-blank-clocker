@@ -1,18 +1,21 @@
 # Q&A
 Q: Why would I want to cloak a tab?  
-A: An [```about:blank```](about:blank) URL won't show up in your search history.
+A: An `about:blank` URL won't show up in your search history.
+<br><br>
 
-Q: How do I download the cloaker?  
-A: Download [```cloak.js```](cloak.js), then put it into the same folder as your HTML file.
-
-Q: How would I activate the cloaker to use in my HTML?  
-A: Put ```<script src="cloak.js"></script>``` above ```</body>``` It should look like:
+Q: How do I start using the cloaker in my website?  
+A: Add the line
+```html
+<script src="https://raw.githubusercontent.com/NCSources0/Website-about-blank-Cloaker/main/cloak.js"></script>
 ```
-    ...
-    <script src="cloak.js"></script>  
-  </body>
-</html>
-```
+after `</body>`
+<br><br>
 
 Q: How would I cloak the tab?  
-A: Use the cloak function, here's an example: ```<button onclick="cloak();">Cloak Tab</button>```
+A: Use the cloak function, here's an example:
+```html
+<button onclick="cloak();">Cloak Tab</button>
+```
+<br><br>
+
+`Nerd since <<INSERT BIRTH YEAR>>`
