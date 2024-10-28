@@ -8,7 +8,7 @@ A: Add the line
 ```html
 <script src="https://raw.githubusercontent.com/NCSources0/Website-about-blank-Cloaker/main/cloak.js"></script>
 ```
-after `</body>`
+before `</body>`
 <br><br>
 
 Q: How would I cloak the tab?  
